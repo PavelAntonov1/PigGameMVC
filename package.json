@@ -1,0 +1,19 @@
+{
+  "name": "pig-game",
+  "version": "1.0.1",
+  "description": "refactored using MVC architecture",
+  "default": "src/index.html",
+  "browserslist": "since 2015",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "author": "Pavel Antonov",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.3.2"
+  }
+}
